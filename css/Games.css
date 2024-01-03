@@ -1,0 +1,21 @@
+@import url(Imports/main.css);
+
+
+main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.games-sales-section{
+    flex: 2;
+}
+
+.checkboxes{
+    flex: 1;
+}
+
+.checkboxes-system{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

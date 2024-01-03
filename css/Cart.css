@@ -1,0 +1,83 @@
+@import url(Imports/main.css);
+
+.header{
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+
+.game-shoppingcart{
+  background-color: #393939;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 5rem;
+  flex-direction: row;
+}
+
+
+
+.game-shoppingcart img{
+  width: 20%;
+
+}
+
+.price-container{
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+.removeitems{
+  text-align: right;
+  margin: 5rem;
+
+}
+
+.checkout-container{
+  text-align: right;
+  margin: 5rem;
+}
+
+.primary-button{
+  padding: 1rem 2rem;
+  background-color: #0DF4DF;
+  cursor: pointer;
+
+}
+
+.secondary-button{
+  padding: 1rem 2rem;
+  background-color: #1D1D1D;
+  border: 2px solid;
+  border-color: #0DF4DF;
+  color: #0DF4DF;
+  cursor: pointer;
+
+}
+
+
+@media (max-width: 1400px) {
+    .games-container {
+      display: flex;
+      flex-direction: column; 
+    }
+  
+    .games-card{
+      width: 50%;
+    }
+    
+    .game-shoppingcart{
+      background-color: #393939;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      margin: 5rem;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

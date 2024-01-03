@@ -1,0 +1,35 @@
+@import url(Imports/main.css);
+
+.checkout-info{
+  text-align: center;
+}
+
+.paymentinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 6rem;
+  
+
+  padding: 20px;
+  background-color: #393939;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1400px) {
+
+    .paymentinfo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 6rem;
+      flex-direction: column;
+      padding: 20px;
+      background-color: #393939;
+      border-radius: 15px;
+    }
+
+  }

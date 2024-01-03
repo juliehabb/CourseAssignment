@@ -1,0 +1,16 @@
+@import url(Imports/main.css);
+
+
+.header{
+  background-image: linear-gradient(rgba (4,9,30,0.7)), (rgba (4,9,30,0.7)), url(Images/Ark.jpg);
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  }
+
+
