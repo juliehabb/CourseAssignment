@@ -1,0 +1,35 @@
+footer{
+    background-color: #393939;
+    margin-top: 1rem;
+    padding: 2rem;
+    position: relative;
+    
+    
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+
+
+  .footer-logo{
+    width: 5%;
+  }
+
+.footer-links ul {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-links li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Change the color to your desired color */
+    padding-right: 1rem;
+}
