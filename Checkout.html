@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,31 +62,31 @@
 
             </div>
             <div class="paymentinfo">
-                <form action="" class="checkout-form">
+                <form action="/submit-form.php" class="checkout-form">
                     <h3>Choose a payment method</h3>
                     <!--Pay with-->
                     <input type="radio" id="creditcard" name="creditcard" value="creditcard" >
                     <label for="creditcard"> Credit card</label>
                     <!--Name on card-->
-                    <label for="nameoncard"> Name on card </label>
+                    <label for="name"> Name on card </label>
                     <input type="text" name="nameoncard" id="name" placeholder="John Doe">
                     <!--Card number-->
-                    <label for="cardnumber"> Card number</label>
+                    <label for="card"> Card number</label>
                     <input type="text" name="cardnumber" id="card" placeholder="1111-2222-3333-4444">
                     <!--Expiration date-->
-                    <label for="expirationdate"> Expiration date</label>
+                    <label for="expiration"> Expiration date</label>
                     <input type="text" name="expirationdate" id="expiration" placeholder="04/26">
                     <!--Security code-->
-                    <label for="securitycode"> Security code</label>
+                    <label for="cvc"> Security code</label>
                     <input type="text" name="securitycode" id="cvc" placeholder="CVC">
                     <!--Pay with-->
                     <input type="radio" id="applepay" name="applepay" value="applepay">
                     <label for="applepay"> Apple Pay</label>
                     <!--Buttons-->
                     <div class="buttons">
-                        <a href="Review.html">
+                        <form action="Review.html">
                             <input class="primary-button" type="button" value="Confirm and continue">
-                        </a>
+                        </form>
                         <a href="index.html">
                             <p class="secondary-button">Cancel</p>
                         </a>
