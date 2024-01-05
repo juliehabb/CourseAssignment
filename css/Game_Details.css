@@ -14,7 +14,9 @@
     padding: 1rem;
 }
 
-
+.buttons {
+    justify-content: flex-start;
+}
 
 @media (max-width: 1400px) {
 

@@ -185,12 +185,6 @@ a {
     cursor: pointer;
 }
 
-button{
-    padding: 1rem;
-    background-color: #0DF4DF;
-    cursor: pointer;
-}
-
 .buttons{
   display: flex;
   flex-direction: row;
