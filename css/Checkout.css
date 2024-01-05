@@ -1,8 +1,6 @@
 @import url(Imports/main.css);
 
-.checkout-info{
-  text-align: center;
-}
+
 
 .paymentinfo {
   display: flex;
@@ -10,15 +8,21 @@
   align-items: center;
   height: 100vh;
   margin: 6rem;
-  
-
   padding: 20px;
   background-color: #393939;
   border-radius: 10px;
 }
 
+.buttons {
+  align-items: center;
+}
 
-@media (max-width: 1400px) {
+.primary-button{
+  padding: 1.5rem 2rem;
+}
+
+
+@media (max-width: 1200px) {
 
     .paymentinfo {
       display: flex;

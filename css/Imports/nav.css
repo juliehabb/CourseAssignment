@@ -10,7 +10,6 @@ nav{
   display: flex;
 }
 
-
 #chk1 {
   display: none;
 }
@@ -103,7 +102,7 @@ nav a{
 
 }
 
-@media (max-width: 1400px) { 
+@media (max-width: 1200px) { 
   #menu-toggle{
     display: block;
     width: 35px;

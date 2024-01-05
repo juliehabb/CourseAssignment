@@ -17,11 +17,8 @@
   flex-direction: row;
 }
 
-
-
 .game-shoppingcart img{
   width: 20%;
-
 }
 
 .price-container{
@@ -33,7 +30,6 @@
 .removeitems{
   text-align: right;
   margin: 5rem;
-
 }
 
 .checkout-container{
@@ -41,25 +37,15 @@
   margin: 5rem;
 }
 
-.primary-button{
-  padding: 1rem 2rem;
-  background-color: #0DF4DF;
-  cursor: pointer;
-
-}
-
-.secondary-button{
-  padding: 1rem 2rem;
-  background-color: #1D1D1D;
-  border: 2px solid;
-  border-color: #0DF4DF;
-  color: #0DF4DF;
-  cursor: pointer;
-
-}
 
 
 @media (max-width: 1400px) {
+  
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+
     .games-container {
       display: flex;
       flex-direction: column; 
@@ -67,6 +53,29 @@
   
     .games-card{
       width: 50%;
+    }
+
+    .removeitems {
+      display: flex;
+      justify-content: center;
+    }
+
+    .subtotal {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .buttons {
+      justify-content: center;
+      gap: 0rem;
+    }
+
+
+    .checkout-containter {
+      display: flex;
+      align-content: center;
+      
     }
     
     .game-shoppingcart{
