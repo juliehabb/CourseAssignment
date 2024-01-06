@@ -1,10 +1,10 @@
-.header{
+.header {
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-nav{
+nav {
   padding: 12px;
   height: 100%;
   display: flex;
@@ -14,62 +14,62 @@ nav{
   display: none;
 }
 
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
 
-nav img{
+nav img {
     width: 90px;
 }
 
-.nav-links1{
+.nav-links1 {
     flex: 1;
     text-align: left;
 }
 
-.nav-links2{
+.nav-links2 {
     flex: 1;
     text-align: right;
 }
 
-.nav-links1 ul li{
+.nav-links1 ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
-.nav-links2 ul li{
+.nav-links2 ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
-nav a{
+nav a {
     padding: 0.5rem;
 }
 
-.nav-links1 ul li a{
+.nav-links1 ul li a {
     color: white;
     text-decoration: none;
 
 }
 
-.nav-links2 ul li a{
+.nav-links2 ul li a {
     color: white;
     text-decoration: none;
 
 }
 
-.search-box{
+.search-box {
     flex: 3;
     text-align: center;
     display: inline-block;
     position: relative;
 }
 
-.search-box input{
+.search-box input {
   width: 50%;
   height: 3rem;
   border: none;
@@ -81,7 +81,7 @@ nav a{
   padding-left: 1rem;
 }
 
-.search-box button{
+.search-box button {
   cursor: pointer;
   width: 3rem;
   height: 3rem;
@@ -92,11 +92,11 @@ nav a{
 
 }
 
-.profilephoto{
+.profilephoto {
   width: 3.5rem;
 }
 
-.header menu{
+.header menu {
   font-size: 2.5em;
   display: none;
 

@@ -1,16 +1,16 @@
 @import url(Imports/main.css);
 
-.gamedetails{
+.gamedetails {
     display: flex;
     margin-bottom: 3rem;
     padding: 2rem;
 }
 
-.rightside{
+.rightside {
     padding: 2rem;
 }
 
-.accordian{
+.accordian {
     padding: 1rem;
 }
 
@@ -20,7 +20,7 @@
 
 @media (max-width: 1400px) {
 
-    .gamedetails{
+    .gamedetails {
       display: flex;
       margin-bottom: 3rem;
       padding: 2rem;

@@ -1,8 +1,6 @@
 @import url(Imports/main.css);
 
-
-
-main{
+main {
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -10,7 +8,7 @@ main{
   min-height: 100vh;
 }
 
-.overview-container{
+.overview-container {
   background-color: #393939;
   padding: 10rem;
   border-radius: 0.3rem;

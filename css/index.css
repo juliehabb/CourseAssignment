@@ -1,16 +1,15 @@
 @import url(Imports/main.css);
 
 
-.first-headline{
+.first-headline {
   margin-left: 2rem;
 }
 
-.subnautica{
+.subnautica {
     width: cov;
 }
 
-.sale-section{
+.sale-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
 }

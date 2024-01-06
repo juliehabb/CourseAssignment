@@ -1,14 +1,7 @@
 @import url(Imports/main.css);
 
 
-.header{
-  background-position: center;
-  background-size: cover;
-  position: relative;
-
-}
-
-.text-container{
+.text-container {
   padding: 10rem;
 }
 

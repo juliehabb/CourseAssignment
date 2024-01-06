@@ -1,13 +1,7 @@
 @import url(Imports/main.css);
 
-.header{
-  background-position: center;
-  background-size: cover;
-  position: relative;
 
-}
-
-.game-shoppingcart{
+.game-shoppingcart {
   background-color: #393939;
   display: flex;
   align-items: center;
@@ -17,42 +11,32 @@
   flex-direction: row;
 }
 
-.game-shoppingcart img{
+.game-shoppingcart img {
   width: 20%;
 }
 
-.price-container{
+.price-container {
   flex-direction: column;
   justify-content: space-between;
- 
 }
 
-.removeitems{
+.removeitems {
   text-align: right;
   margin: 5rem;
 }
 
-.checkout-container{
+.checkout-container {
   text-align: right;
   margin: 5rem;
 }
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   
     h1 {
       display: flex;
       justify-content: center;
-    }
-
-    .games-container {
-      display: flex;
-      flex-direction: column; 
-    }
-  
-    .games-card{
-      width: 50%;
     }
 
     .removeitems {
@@ -68,9 +52,8 @@
 
     .buttons {
       justify-content: center;
-      gap: 0rem;
+      gap: 1rem;
     }
-
 
     .checkout-containter {
       display: flex;
@@ -78,7 +61,7 @@
       
     }
     
-    .game-shoppingcart{
+    .game-shoppingcart {
       background-color: #393939;
       display: flex;
       align-items: center;
